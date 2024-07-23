@@ -22,7 +22,6 @@ const Stopwatch = () => {
   };
   const handleStop = () => {
     setRunning(false);
-    console.log(`${running} Button clicked `);
   };
   const handleReset = () => {
     setTime(0);
