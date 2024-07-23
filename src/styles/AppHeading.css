@@ -1,0 +1,14 @@
+.app-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Arial Black', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .app-heading {
+    font-size: 1.2rem;
+  }
+}
